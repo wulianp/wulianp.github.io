@@ -188,18 +188,33 @@ hr.star-primary:after {
 #timeline .bcg-tl{
     padding-top: 100px;
     padding-bottom: 300px;
-    background-image:url('img/experience.jpg');
+    background-image:url('img/experience-bg.jpg');
     opacity: 0.6;
     color:whitesmoke;
     min-height: 150vh;
 
 }
 
-.tl-wrapper .divider{
+#timeline .exp-center{
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+#timeline .exp-center p{
+    font-size:1em;
+    font-weight: 100;
+    
+}
+
+
+#timeline .exp-center .divider{
     display: block;
     margin: 30px 0;
     width: 100px;
     height: 2px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
     background-color: #b18306;
 }
 
@@ -562,7 +577,7 @@ footer .footer-below {
         position: absolute;
         content: " ";
         width: 3px;
-        background-color: #eeeeee;
+        background-color: #000000;;
         left: 50%;
         margin-left: -1.5px;
     }
@@ -601,6 +616,7 @@ footer .footer-below {
             position: relative;
             -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
             box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+            background-color: rgba(19, 10, 1, 0.74);
         }
 
             .timeline > li > .timeline-panel:before {
@@ -692,12 +708,18 @@ footer .footer-below {
 .timeline-body > p,
 .timeline-body > ul {
     margin-bottom: 0;
+    font-size: 0.7em;
+    font-weight: 50;
 }
 
     .timeline-body > p + p {
         margin-top: 5px;
     }
 
+.timeline-body p .timestamp{
+    font-size: 1.4em;
+
+}
 @media (max-width: 767px) {
     ul.timeline:before {
         left: 40px;
