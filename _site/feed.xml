@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator>
   <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2019-08-13T15:09:18-07:00</updated>
+  <updated>2019-08-13T17:46:08-07:00</updated>
   <id>http://localhost:4000/</id>
 
   
@@ -20,12 +20,12 @@
   
   
     <entry>
-      <title type="html">Project 1</title>
-      <link href="http://localhost:4000/web%20development/2014/07/18/project-1/" rel="alternate" type="text/html" title="Project 1" />
-      <published>2014-07-18T00:00:00-07:00</published>
-      <updated>2014-07-18T00:00:00-07:00</updated>
-      <id>http://localhost:4000/web%20development/2014/07/18/project-1</id>
-      <content type="html" xml:base="http://localhost:4000/web%20development/2014/07/18/project-1/"></content>
+      <title type="html">Bluelight</title>
+      <link href="http://localhost:4000/android%20mobile%20app/2019/03/27/BlueLight/" rel="alternate" type="text/html" title="Bluelight" />
+      <published>2019-03-27T00:00:00-07:00</published>
+      <updated>2019-03-27T00:00:00-07:00</updated>
+      <id>http://localhost:4000/android%20mobile%20app/2019/03/27/BlueLight</id>
+      <content type="html" xml:base="http://localhost:4000/android%20mobile%20app/2019/03/27/BlueLight/"></content>
 
       
       
@@ -40,7 +40,7 @@
       </author>
 
       
-        <category term="Web Development" />
+        <category term="Android Mobile App" />
       
 
       
@@ -54,12 +54,12 @@
     </entry>
   
     <entry>
-      <title type="html">Project 2</title>
-      <link href="http://localhost:4000/web%20development/2014/07/17/project-2/" rel="alternate" type="text/html" title="Project 2" />
-      <published>2014-07-17T00:00:00-07:00</published>
-      <updated>2014-07-17T00:00:00-07:00</updated>
-      <id>http://localhost:4000/web%20development/2014/07/17/project-2</id>
-      <content type="html" xml:base="http://localhost:4000/web%20development/2014/07/17/project-2/"></content>
+      <title type="html">Smoking cessation data visualization</title>
+      <link href="http://localhost:4000/2018/12/09/Smoking-Cessation-Data-Visualization/" rel="alternate" type="text/html" title="Smoking cessation data visualization" />
+      <published>2018-12-09T00:00:00-08:00</published>
+      <updated>2018-12-09T00:00:00-08:00</updated>
+      <id>http://localhost:4000/2018/12/09/Smoking%20Cessation%20Data%20Visualization</id>
+      <content type="html" xml:base="http://localhost:4000/2018/12/09/Smoking-Cessation-Data-Visualization/"></content>
 
       
       
@@ -74,8 +74,6 @@
       </author>
 
       
-        <category term="Web Development" />
-      
 
       
 
@@ -88,12 +86,12 @@
     </entry>
   
     <entry>
-      <title type="html">Project 3</title>
-      <link href="http://localhost:4000/web%20development/2014/07/16/project-3/" rel="alternate" type="text/html" title="Project 3" />
+      <title type="html">Personal website</title>
+      <link href="http://localhost:4000/web%20development/2014/07/16/Personal-Website/" rel="alternate" type="text/html" title="Personal website" />
       <published>2014-07-16T00:00:00-07:00</published>
       <updated>2014-07-16T00:00:00-07:00</updated>
-      <id>http://localhost:4000/web%20development/2014/07/16/project-3</id>
-      <content type="html" xml:base="http://localhost:4000/web%20development/2014/07/16/project-3/"></content>
+      <id>http://localhost:4000/web%20development/2014/07/16/Personal%20Website</id>
+      <content type="html" xml:base="http://localhost:4000/web%20development/2014/07/16/Personal-Website/"></content>
 
       
       

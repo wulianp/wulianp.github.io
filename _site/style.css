@@ -42,56 +42,18 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Whitney,"Helvetica",Arial,sans-serif;
     font-weight: 700;
-}
-
-
-hr.star-light,
-hr.star-primary {
-    margin: 25px auto 30px;
-    padding: 0;
-    max-width: 250px;
-    border: 0;
-    border-top: solid 5px;
-    text-align: center;
-    overflow: visible;
-}
-
-hr.star-light:after,
-hr.star-primary:after {
-    content: "\f005";
-    display: inline-block;
-    position: relative;
-    top: -.8em;
-    padding: 0 .25em;
-    font-family: FontAwesome;
-    font-size: 2em;
-}
-
-hr.star-light {
-    border-color: #fff;
-}
-
-hr.star-light:after {
-    color: #fff;
-    background-color: #18bc9c;
-}
-
-hr.star-primary {
-    border-color: #2c3e50;
-}
-
-hr.star-primary:after {
-    color: #2c3e50;
-    background-color: #fff;
 }
 
 .img-centered {
     margin: 0 auto;
 }
 
-
+.img-project{
+    max-width:50%;
+    max-height:50%;
+}
 .bcg {
     background-position: center center;
     background-repeat: no-repeat;
@@ -129,6 +91,7 @@ hr.star-primary:after {
     background-color: black;
 
 }
+
 
 #contact .bcg{
     background-image:url('img/contact-1.jpg');
@@ -230,7 +193,14 @@ hr.star-primary:after {
     background-color: #b18306;
 }
 
-
+ul {
+    display: inline-block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
 .navbar.transparent.navbar-inverse .navbar-inner {
     border-width: 0px;
     -webkit-box-shadow: 0px 0px;
@@ -242,6 +212,9 @@ hr.star-primary:after {
 }   
 
 @media(min-width:768px) {
+    .container{
+        width: fit-content;
+    }
     .navbar-fixed-top {
         padding: 25px 0;
         -webkit-transition: padding .3s;
@@ -315,6 +288,18 @@ section.success {
     }
 }
 
+#portfolio .bcg{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    background-color: #1b1b1b;
+    color:whitesmoke;
+    padding-bottom: 165px;
+}
 
 
 #portfolio .portfolio-item {
@@ -464,7 +449,7 @@ footer h3 {
 
 footer .footer-above {
     padding-top: 50px;
-    background-color: #2c3e50;
+    background-color: #3c3c3c;
 }
 
 footer .footer-col {
@@ -473,7 +458,7 @@ footer .footer-col {
 
 footer .footer-below {
     padding: 25px 0;
-    background-color: #233140;
+    background-color: #3c3c3c;
 }
 
 .btn-social {
@@ -513,8 +498,56 @@ footer .footer-below {
 .scroll-top .btn:focus {
     outline: 0;
 }
+.portfolio-modal .modal-content .rowimage{
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    top: 90px;
+    height: auto;
+    max-width: auto;
+    overflow-y: hidden;
+    overflow-x:auto;
+    word-wrap:normal;
+    white-space:nowrap;
+}
+.images{
+    display: inline;
+    margin: 0px;
+    padding: 0px;
+    vertical-align:middle;
+    width:200px;
+}
+.portfolio-modal .modal-content .used-item {
+        display: inline-block;
+        padding: 7px 7px 5px;
+        margin-right: 5px;
+        margin-bottom: 10px;
+        color: #333;
+        background: #777;
+        border-radius: 3px;
+        text-transform: uppercase;
+        font-size: 10px;
+        font-weight: 500;
+        letter-spacing: .5px;
+}
+.portfolio-modal .modal-content h3{
+    font-size:1em;
+    font-weight: 200;
+}
 
+.portfolio-modal .modal-content li {
+    list-style-type: none;
+    display: -moz-grid-line;
+
+}
+.portfolio-modal .modal-content p{
+    font-size:1.3em;
+    font-weight: 150;
+    text-transform: initial;
+}
 .portfolio-modal .modal-content {
+    font-family: Whitney,"Helvetica",Arial,sans-serif;
     padding: 100px 0;
     min-height: 100%;
     border: 0;
@@ -636,7 +669,8 @@ padding: 20px;
 position: relative;
 -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
 box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
-background-color: rgba(19, 10, 1, 0.74);
+opacity: .85;
+background-color:#242525;
 }
 
 .timeline > li > .timeline-panel:before {

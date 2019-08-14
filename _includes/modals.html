@@ -14,26 +14,48 @@
                         <div class="modal-body">
                             <h2>{{ post.title }}</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                            <img src="img/portfolio/{{ post.img }}" class="img-project" alt="{{ post.alt }}">
                             {% if post.description %}
                                 <p>{{ post.description }}</p>
                             {% endif %}
-                            <ul class="list-inline item-details">
-                                {% if post.client %}
-                                    <li>Client:
-                                        <strong><a href="http://startbootstrap.com">{{ post.client }}</a>
-                                        </strong>
-                                    </li>
+    
+                            {% if post.img3 %}
+                            <div id="rowimage">
+                                        <img src="img/portfolio/{{ post.img2 }}" class="images" alt="{{ post.img2-alt }}">
+                                        <img src="img/portfolio/{{ post.img3 }}" class="images"  alt="{{ post.img3-alt}}">
+                                        <img src="img/portfolio/{{ post.img4 }}"  class="images" alt="{{ post.img4-alt}}">
+                                        
+                            </div>
+                            {% else %}
+                                <img src="img/portfolio/{{ post.img2 }}" alt="{{ post.img2-alt }}">
+                            {% endif %}
+                            {% if post.more-description %}
+                                <p>{{ post.more-description }}</p>
+                            {% endif %}
+                            <ul class="used-items">
+                                {% if post.technologies %}
+                                    <h3>Tecnologies Used:</h3>
+                                    {% if post.technology1 %}
+                                    <li class="used-item"><a href="{{technology1-link}}">{{post.technology1}} </a> </li>
+                                    {% endif %}
+                                    {% if post.technology2 %}
+                                    <li class="used-item"><a href="{{technology2-link}}">{{post.technology2}} </a> </li>
+                                    {% endif %}
+                                    {% if post.technology3%}
+                                    <li class="used-item"><a href="{{technology3-link}}">{{post.technology3}} </a> </li>
+                                    {% endif %}
+                                    {% if post.technology4 %}
+                                    <li class="used-item"><a href="{{technology4-link}}">{{post.technology4}} </a> </li>
+                                    {% endif %}
                                 {% endif %}
                                 {% if post.project-date %}
-                                    <li>Date:
-                                        <strong><a href="http://startbootstrap.com">{{ post.project-date }}</a>
-                                        </strong>
+                                    <li class="listin">Date:
+                                        <strong>{{ post.project-date }}</strong>
                                     </li>
                                 {% endif %}
-                                {% if post.category %}
-                                    <li>Service:
-                                        <strong><a href="http://startbootstrap.com">{{ post.category }}</a>
+                                {% if post.source %}
+                                    <li class="listin">Source:
+                                        <strong><a href="{{post.source}}"> Github</a>
                                         </strong>
                                     </li>
                                 {% endif %}
