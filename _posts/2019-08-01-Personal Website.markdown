@@ -1,12 +1,23 @@
 ---
 layout: default
 modal-id: 3
-date: 2014-07-16
-img: circus.png
-alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!
+date: 2019-08-01
+img: websitemain.png
+alt: Landing page
+img2: pwebsite1.png
+img2-alt: Timeline and Projects
+img3: pwebsite2.png
+img3-alt: Contact me page
+gallery: true
+snap-tittle: Website Shots
+project-date: March 2019
+technologies: true
+technology1: Bootstrap
+technology2: HTML/CSS
+technology3: JS
+technology4: Jekyll and Gitpages
+source: https://github.com/wulianp/wulianp.github.io
+category: Web Application
+description: Personal website built with Jekyll and hosted on Github Pages. Includes an about me page section, experience timeline developed using CSS and project section showcasting projects I've been involed. 
 
 ---

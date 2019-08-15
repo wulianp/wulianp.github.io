@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator>
   <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2019-08-13T17:46:08-07:00</updated>
+  <updated>2019-08-15T14:43:19-07:00</updated>
   <id>http://localhost:4000/</id>
 
   
@@ -18,6 +18,40 @@
   
 
   
+  
+    <entry>
+      <title type="html">Personal website</title>
+      <link href="http://localhost:4000/web%20application/2019/08/01/Personal-Website/" rel="alternate" type="text/html" title="Personal website" />
+      <published>2019-08-01T00:00:00-07:00</published>
+      <updated>2019-08-01T00:00:00-07:00</updated>
+      <id>http://localhost:4000/web%20application/2019/08/01/Personal%20Website</id>
+      <content type="html" xml:base="http://localhost:4000/web%20application/2019/08/01/Personal-Website/"></content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+        <category term="Web Application" />
+      
+
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">Bluelight</title>
@@ -54,6 +88,40 @@
     </entry>
   
     <entry>
+      <title type="html">Wwu cs mentors tutoring queue</title>
+      <link href="http://localhost:4000/web%20application/2019/03/27/WWU-CS-Mentors-Tutoring-Queue/" rel="alternate" type="text/html" title="Wwu cs mentors tutoring queue" />
+      <published>2019-03-27T00:00:00-07:00</published>
+      <updated>2019-03-27T00:00:00-07:00</updated>
+      <id>http://localhost:4000/web%20application/2019/03/27/WWU%20CS%20Mentors%20Tutoring%20Queue</id>
+      <content type="html" xml:base="http://localhost:4000/web%20application/2019/03/27/WWU-CS-Mentors-Tutoring-Queue/"></content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+        <category term="Web Application" />
+      
+
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
       <title type="html">Smoking cessation data visualization</title>
       <link href="http://localhost:4000/2018/12/09/Smoking-Cessation-Data-Visualization/" rel="alternate" type="text/html" title="Smoking cessation data visualization" />
       <published>2018-12-09T00:00:00-08:00</published>
@@ -73,142 +141,6 @@
         
       </author>
 
-      
-
-      
-
-      
-        <summary type="html"></summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Personal website</title>
-      <link href="http://localhost:4000/web%20development/2014/07/16/Personal-Website/" rel="alternate" type="text/html" title="Personal website" />
-      <published>2014-07-16T00:00:00-07:00</published>
-      <updated>2014-07-16T00:00:00-07:00</updated>
-      <id>http://localhost:4000/web%20development/2014/07/16/Personal%20Website</id>
-      <content type="html" xml:base="http://localhost:4000/web%20development/2014/07/16/Personal-Website/"></content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name></name>
-        
-        
-      </author>
-
-      
-        <category term="Web Development" />
-      
-
-      
-
-      
-        <summary type="html"></summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Project 4</title>
-      <link href="http://localhost:4000/web%20development/2014/07/15/project-4/" rel="alternate" type="text/html" title="Project 4" />
-      <published>2014-07-15T00:00:00-07:00</published>
-      <updated>2014-07-15T00:00:00-07:00</updated>
-      <id>http://localhost:4000/web%20development/2014/07/15/project-4</id>
-      <content type="html" xml:base="http://localhost:4000/web%20development/2014/07/15/project-4/"></content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name></name>
-        
-        
-      </author>
-
-      
-        <category term="Web Development" />
-      
-
-      
-
-      
-        <summary type="html"></summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Project 6</title>
-      <link href="http://localhost:4000/web%20development/2014/07/15/project-6/" rel="alternate" type="text/html" title="Project 6" />
-      <published>2014-07-15T00:00:00-07:00</published>
-      <updated>2014-07-15T00:00:00-07:00</updated>
-      <id>http://localhost:4000/web%20development/2014/07/15/project-6</id>
-      <content type="html" xml:base="http://localhost:4000/web%20development/2014/07/15/project-6/"></content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name></name>
-        
-        
-      </author>
-
-      
-        <category term="Web Development" />
-      
-
-      
-
-      
-        <summary type="html"></summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Project 5</title>
-      <link href="http://localhost:4000/web%20development/2014/07/14/project-5/" rel="alternate" type="text/html" title="Project 5" />
-      <published>2014-07-14T00:00:00-07:00</published>
-      <updated>2014-07-14T00:00:00-07:00</updated>
-      <id>http://localhost:4000/web%20development/2014/07/14/project-5</id>
-      <content type="html" xml:base="http://localhost:4000/web%20development/2014/07/14/project-5/"></content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name></name>
-        
-        
-      </author>
-
-      
-        <category term="Web Development" />
       
 
       

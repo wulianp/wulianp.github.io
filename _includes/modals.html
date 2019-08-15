@@ -55,7 +55,12 @@
                                 {% endif %}
                                 {% if post.source %}
                                     <li class="listin">Source:
-                                        <strong><a href="{{post.source}}"> Github</a>
+                                        <strong><a href="{{post.source}}"> Link</a>
+                                        </strong>
+                                    </li>
+                                {% else %}
+                                    <li class="listin">Demo:
+                                        <strong><a href="{{post.source}}"> Link</a>
                                         </strong>
                                     </li>
                                 {% endif %}

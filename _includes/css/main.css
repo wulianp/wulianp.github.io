@@ -10,6 +10,8 @@ body {
     height: 100%;
     perspective: 0px;
     transform-style: preserve-3d;
+    margin:0;
+    padding:0;
 }
 p {
     font-size: 20px;
@@ -35,7 +37,7 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: Whitney,"Helvetica",Arial,sans-serif;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
 
@@ -44,7 +46,7 @@ h6 {
 }
 
 .img-project{
-    max-width:50%;
+    max-width:120%%;
     max-height:50%;
 }
 .bcg {
@@ -77,6 +79,13 @@ h6 {
     min-height: 100vh;
 }
 
+#intro h2{
+    margin: 50px;
+    font-size: 5em;
+}
+#intro p {
+    font-size: 25px;
+}
 #about .bcg {
     min-height: 700px;
     padding-top: 100;
@@ -90,8 +99,8 @@ h6 {
     background-image:url('img/contact-1.jpg');
     color:whitesmoke;
     min-height: 100vh;
-    
 }
+
 .about-wrapper {
     padding: 100px;
     width: 100%;
@@ -101,6 +110,7 @@ h6 {
     color: white;
     font-weight: 100;
 }
+
 .about-wrapper h2{
     display: block;
     text-align: left;
@@ -120,6 +130,7 @@ h6 {
     margin-inline-end: 0px;
     text-align: left;
 }
+
 .about-wrapper .divider{
     display: block;
     margin: 30px 0;
@@ -134,11 +145,13 @@ h6 {
     line-height: 1.5em;
     text-align: left;
 }
+
 .p-wrapper img{
-    margin-top: 0;
+    display: inline-block;
     width: 35%;
     height: auto;
     border-radius: 50%;
+    margin-top: -100px;
     float: right;
     max-width: 450px;
 }
@@ -161,7 +174,6 @@ h6 {
     opacity: 0.6;
     color:whitesmoke;
     min-height: 150vh;
-
 }
 
 #timeline .exp-center{
@@ -256,14 +268,9 @@ ul {
     border: 0;
 }
 
-
-section {
-    min-height: 100vh;
-}
-
 section h2 {
     margin: 50px;
-    font-size: 3em;
+    font-size: 5em;
 }
 
 section.success {
@@ -349,6 +356,11 @@ section.success {
 @media(min-width:767px) {
     #portfolio .portfolio-item {
         margin: 0 0 30px;
+    }
+    #about .p-wrapper .headshot{
+        float: none;
+        margin: 10px 0 40px 0;
+        width: 300px;
     }
 }
 
@@ -509,7 +521,7 @@ footer .footer-below {
     margin: 0px;
     padding: 0px;
     vertical-align:middle;
-    width:200px;
+    width:350px;
 }
 .portfolio-modal .modal-content .used-item {
         display: inline-block;
@@ -616,7 +628,20 @@ footer .footer-below {
     padding: 20px 0 20px;
     position: relative;
 }
+.timeline .text-muted {
+    font-size: 60%;
+    color: #f39c12;
+}
 
+.timeline .text-time {
+    color: #ffffff;
+    font-size: 50%;
+}
+
+.timeline .timeline-body{
+    text-transform: none;
+    font-size: 1.5em;
+}
 .timeline:before {
 top: 0;
 bottom: 0;
