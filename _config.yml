@@ -2,9 +2,9 @@
 title: PWL
 email: phillipwu.56@gmail.com
 url: https://wulianp.github.io
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-keywords: "your keywords, separated by commas"
-skills: "Web Developer - Graphic Artist - User Experience Designer"
+description: "A dedicated and curious computer programmer and have 
+a passion to help communities around me through my skills"
+keywords: "Computer Science, Software Engineer, Student"
 meta_author: Wu Liang Phillip
 
 # Google webmaster tools
@@ -39,10 +39,8 @@ footer:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
+  - title: linkedin
+    url: http://linkedin.com/in/phillip-wu-liang
   - title: github
     url: http://github.com/wulianp
 

@@ -84,7 +84,8 @@ h6 {
     font-size: 5em;
 }
 #intro p {
-    font-size: 25px;
+    font-size: 19px;
+    font-weight: 100;
 }
 #about .bcg {
     min-height: 700px;
@@ -121,8 +122,9 @@ h6 {
 
 .about-wrapper h3{
     box-sizing: border-box;
+    text-transform: none;
     -webkit-font-smoothing: antialiased;
-    font-size: 1.2em;
+    font-size: 1.4em;
     font-weight: 150;
     margin-block-start: 1em;
     margin-block-end: 1em;
@@ -138,13 +140,17 @@ h6 {
     height: 2px;
     background-color: #b18306;
 }
+  
 .p-wrapper{
     padding-right: 20px;
     width: 90%;
     vertical-align: top;
     line-height: 1.5em;
-    text-align: left;
+    text-align: justify;
+    text-transform: none;
+    font-size: 1.3em;
 }
+
 
 .p-wrapper img{
     display: inline-block;
@@ -190,7 +196,7 @@ h6 {
 #timeline .exp-center .divider{
     display: block;
     margin: 30px 0;
-    width: 100px;
+    width: 300px;
     height: 2px;
     margin-right: auto;
     margin-left: auto;
@@ -641,7 +647,15 @@ footer .footer-below {
 .timeline .timeline-body{
     text-transform: none;
     font-size: 1.5em;
+    text-align: justify;
 }
+.timeline .timeline-body-univ p{
+    text-transform: none;
+    font-size: 1em;
+    font-weight: 50;
+}
+
+
 .timeline:before {
 top: 0;
 bottom: 0;
