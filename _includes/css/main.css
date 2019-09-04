@@ -56,7 +56,7 @@ h6 {
     background-size: cover;
     text-align: center;
     height: 100%;
-    width: 100%;
+    box-sizing: border-box;
     background-color: black;
 }
 
@@ -67,7 +67,7 @@ h6 {
     background-size: cover;
     text-align: center;
     height: 100%;
-    width: 100%;
+    box-sizing: border-box;
     background-color: black;
 }
 /* Intro section  */
@@ -104,7 +104,7 @@ h6 {
 
 .about-wrapper {
     padding: 100px;
-    width: 100%;
+    box-sizing: border-box;
     height: auto;
     min-height: 800px;
     overflow: hidden;
@@ -136,14 +136,19 @@ h6 {
 .about-wrapper .divider{
     display: block;
     margin: 30px 0;
-    width: 100px;
+    width:30%;
     height: 2px;
     background-color: #b18306;
 }
-  
+@media(min-width:767px) {
+    #about .p-wrapper .headshot{
+        float: none;
+        margin: 10px 0 40px 0;
+        box-sizing: border-box;
+    }
 .p-wrapper{
     padding-right: 20px;
-    width: 90%;
+    box-sizing: border-box;
     vertical-align: top;
     line-height: 1.5em;
     text-align: justify;
@@ -154,7 +159,7 @@ h6 {
 
 .p-wrapper img{
     display: inline-block;
-    width: 35%;
+    box-sizing: border-box;
     height: auto;
     border-radius: 50%;
     margin-top: -100px;
@@ -286,11 +291,11 @@ section.success {
 
 @media(max-width:767px) {
     section {
-        padding: 75px 0;
+        box-sizing: border-box;
     }
 
     section.first {
-        padding-top: 75px;
+        box-sizing: border-box;
     }
 }
 
@@ -366,7 +371,7 @@ section.success {
     #about .p-wrapper .headshot{
         float: none;
         margin: 10px 0 40px 0;
-        width: 300px;
+        box-sizing: border-box;
     }
 }
 
